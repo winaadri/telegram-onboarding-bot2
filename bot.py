@@ -25,10 +25,10 @@ def escape_md_v2_keep_bold(text: str) -> str:
 
 # Mensaje base (SIN Instagram)
 RAW_WELCOME_MESSAGE = (
-    "🚨 *GRACIAS POR TU SOLICITUD PARA SEGUIR A WINA (HAY MUCHAS SOLICITUDES)*\n\n"
+    "🚨 *GRACIAS POR TU SOLICITUD PARA SEGUIR A INFA (HAY MUCHAS SOLICITUDES)*\n\n"
     "Mientras tanto, te recomiendo que te unas a los canales de la familia\n\n"
     "🎾 *INFA TENIS:* 👉 {link_tennis}\n"
-    " *GAPUESTAS:* 👉 {link_basket}\n"
+    "⚽ *GAPUESTAS:* 👉 {link_basket}\n"
 )
 
 async def handle_join_request(update: Update, context: ContextTypes.DEFAULT_TYPE):
